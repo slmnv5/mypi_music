@@ -1,0 +1,53 @@
+#E3/64 - B2/59 - G2/55 - D2/50 - A1/45 - E1/40
+# 81       76      72      67      62      57
+
+#router_begin [note|cc|prog|pbend|cpress|kpress]
+
+router_clear
+
+router_begin cc
+router_chan 0 8 1 0
+router_end
+
+router_begin prog
+router_chan 0 5 1 0
+router_end
+
+router_begin pbend
+router_chan 0 5 1 0
+router_end
+
+
+router_begin note
+router_par1 0 81 1 0
+router_chan 0 0 1 0
+router_end
+
+router_begin note
+router_par1 0 76 1 0
+router_chan 1 1 1 0
+router_end
+
+router_begin note
+router_par1 0 72 1 0
+router_chan 2 2 1 0
+router_end
+
+router_begin note
+router_par1 0 67 1 0
+router_chan 3 3 1 0
+router_end
+
+router_begin note
+router_par1 0 62 1 0
+router_chan 4 4 1 0
+router_end
+
+router_begin note
+router_par1 0 57 1 0
+router_chan 5 5 1 0
+router_end
+
+#pan those 2 channels 4,5 
+#cc 5 10 8
+#cc 4 10 127
